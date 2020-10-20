@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/script.js" type="text/javascript"></script>
+</head>
+<body>
+    <div>
+        <table class="table">
+            <tr>
+                <td colspan="2"><input class="numpad" type="text" id="result"></td>
+                <td><button class="numpad" id="clear" onclick="cls()">Clear</button></td>
+    
+            </tr>
+            <tr>
+                <td><button class="numpad" onclick="fill('1')">1</button></td>
+                <td><button class="numpad" onclick="fill('2')">2</button></td>
+                <td><button class="numpad" onclick="fill('3')">3</button></td>
+            </tr>
+            <tr>
+                <td><button class="numpad" onclick="fill('4')">4</button></td>
+                <td><button class="numpad" onclick="fill('5')">5</button></td>
+                <td><button class="numpad" onclick="fill('6')">6</button></td>
+            </tr>
+            <tr>
+                <td><button class="numpad" onclick="fill('7')">7</button></td>
+                <td><button class="numpad" onclick="fill('8')">8</button></td>
+                <td><button class="numpad" onclick="fill('9')">9</button></td>
+            </tr>   
+            <tr>
+                <td><button class="numpad" onclick="fill('.')">.</button></td>
+                <td><button class="numpad" onclick="fill('0')">0</button></td>
+                <td><button class="numpad" onclick="show()">=</button></td>
+            </tr>
+        </table>
+
+        <table class="table">
+            <tr>
+                <td><button class="numpad" onclick="fill('+')">+</button></td>
+                <td><button class="numpad" onclick="fill('-')">-</button></td>
+                <td><button class="numpad" onclick="fill('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="numpad" onclick="fill('/')">/</button></td>
+                <td><button class="numpad" onclick="fill('**')">^</button></td>
+                <td><button class="numpad" onclick="fill('%')">%</button></td>
+            </tr>
+            <tr>
+                <td><button class="numpad" onclick="fill('|')">or</button></td>
+                <td><button class="numpad" onclick="fill('^')">xor</button></td>
+                <td><button class="numpad" onclick="fill('&')">and</button></td>
+            </tr>
+            <tr>
+
+            </tr>
+        </table>
+
+    </div>
+    
+    
+</body>
+</html>

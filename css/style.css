@@ -1,0 +1,47 @@
+.numpad {
+    margin-right: 10px;
+    width: 50px;
+    background: #1abc9c;
+    border-bottom: #16a085 3px solid;
+    border-left: #16a085 1px solid;
+    border-right: #16a085 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  
+  .numpad:hover {
+      cursor: pointer;
+      opacity: 0.8;
+ 
+  }
+  
+  .numpad:active {
+    width: 60px;
+    background: #18B495;
+    border-bottom: #16a085 1px solid;
+    border-left: #16a085 1px solid;
+    border-right: #16a085 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 3px;
+    float: left;
+    cursor: pointer;
+  }
+  #result{
+      width: 100px;
+  }
+  #clear{
+      font-size: 14px;
+      font-weight: 500;
+  }
+  .table{
+      display: inline;
+  }
